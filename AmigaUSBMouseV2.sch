@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1094,28 +1094,76 @@ D=Direct mounting &lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="AMIGA" library="con-subd" deviceset="F09" device="D" value="0"/>
-<part name="L" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FQN1N50C" device="I" value="BS108"/>
-<part name="R" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FQN1N50C" device="I" value="BS108"/>
-<part name="PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="0"/>
-<part name="U$2" library="USBMiniHost" deviceset="USB-SHIELD-MINI" device=""/>
+<part name="AMIGA" library="con-subd" deviceset="F09" device="D">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="L" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FQN1N50C" device="I" value="BS108">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FQN1N50C" device="I" value="BS108">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="U$2" library="USBMiniHost" deviceset="USB-SHIELD-MINI" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="PWR_BRIDGE" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="AMIGA" gate="G$1" x="86.36" y="43.18"/>
-<instance part="L" gate="G$1" x="60.96" y="109.22" smashed="yes">
-<attribute name="VALUE" x="52.07" y="101.6" size="1.778" layer="96"/>
-<attribute name="NAME" x="59.69" y="109.22" size="1.778" layer="95"/>
+<instance part="AMIGA" gate="G$1" x="86.36" y="43.18">
+<attribute name="OC_FARNELL" x="86.36" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="86.36" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="86.36" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R" gate="G$1" x="114.3" y="109.22" smashed="yes">
-<attribute name="VALUE" x="105.41" y="101.6" size="1.778" layer="96"/>
-<attribute name="NAME" x="110.49" y="109.22" size="1.778" layer="95"/>
+<instance part="L" gate="G$1" x="25.4" y="99.06" smashed="yes">
+<attribute name="VALUE" x="16.51" y="91.44" size="1.778" layer="96"/>
+<attribute name="NAME" x="31.75" y="81.28" size="1.778" layer="95"/>
+<attribute name="OC_FARNELL" x="25.4" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="25.4" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="25.4" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PWR" gate="G$1" x="68.58" y="68.58" rot="R180"/>
-<instance part="U$2" gate="G$1" x="40.64" y="53.34"/>
+<instance part="R" gate="G$1" x="63.5" y="99.06" smashed="yes">
+<attribute name="VALUE" x="54.61" y="91.44" size="1.778" layer="96"/>
+<attribute name="NAME" x="59.69" y="99.06" size="1.778" layer="95"/>
+<attribute name="OC_FARNELL" x="63.5" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="63.5" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="63.5" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="PWR" gate="G$1" x="68.58" y="68.58" rot="R180">
+<attribute name="OC_FARNELL" x="68.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="68.58" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="68.58" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$2" gate="G$1" x="40.64" y="53.34">
+<attribute name="OC_FARNELL" x="40.64" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="40.64" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="40.64" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="PWR_BRIDGE" gate="G$1" x="96.52" y="68.58" rot="R180">
+<attribute name="OC_FARNELL" x="96.52" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="96.52" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="96.52" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1135,8 +1183,8 @@ D=Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <pinref part="L" gate="G$1" pin="D"/>
-<wire x1="66.04" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
-<label x="68.58" y="111.76" size="0.8128" layer="95" xref="yes"/>
+<wire x1="30.48" y1="101.6" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
+<label x="33.02" y="101.6" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -1146,14 +1194,14 @@ D=Direct mounting &lt;p&gt;
 <label x="101.6" y="40.64" size="0.6096" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="66.04" y="96.52" size="0.8128" layer="95" rot="R270" xref="yes"/>
+<label x="30.48" y="86.36" size="0.8128" layer="95" rot="R270" xref="yes"/>
 <pinref part="L" gate="G$1" pin="S"/>
-<wire x1="66.04" y1="96.52" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="86.36" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="119.38" y="96.52" size="0.8128" layer="95" rot="R270" xref="yes"/>
+<label x="68.58" y="86.36" size="0.8128" layer="95" rot="R270" xref="yes"/>
 <pinref part="R" gate="G$1" pin="S"/>
-<wire x1="119.38" y1="106.68" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="96.52" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PWR" gate="G$1" pin="1"/>
@@ -1170,6 +1218,11 @@ D=Direct mounting &lt;p&gt;
 <wire x1="17.78" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
 <label x="15.24" y="58.42" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="PWR_BRIDGE" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
+<label x="106.68" y="66.04" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BTN_R" class="1">
 <segment>
@@ -1179,15 +1232,15 @@ D=Direct mounting &lt;p&gt;
 </segment>
 <segment>
 <pinref part="R" gate="G$1" pin="D"/>
-<wire x1="119.38" y1="111.76" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
-<label x="121.92" y="111.76" size="0.8128" layer="95" xref="yes"/>
+<wire x1="68.58" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
+<label x="71.12" y="101.6" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOUSE_RIGHT" class="1">
 <segment>
 <pinref part="R" gate="G$1" pin="G"/>
-<wire x1="109.22" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
-<label x="106.68" y="106.68" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="58.42" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
+<label x="55.88" y="96.52" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D7"/>
@@ -1205,8 +1258,8 @@ D=Direct mounting &lt;p&gt;
 <net name="MOUSE_LEFT" class="1">
 <segment>
 <pinref part="L" gate="G$1" pin="G"/>
-<wire x1="55.88" y1="106.68" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
-<label x="53.34" y="106.68" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="20.32" y1="96.52" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
+<label x="17.78" y="96.52" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D6"/>
@@ -1272,6 +1325,11 @@ D=Direct mounting &lt;p&gt;
 <pinref part="U$2" gate="G$1" pin="RAW"/>
 <wire x1="55.88" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
 <label x="58.42" y="66.04" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PWR_BRIDGE" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
+<label x="106.68" y="68.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -1392,6 +1450,9 @@ D=Direct mounting &lt;p&gt;
 <approved hash="106,1,17.78,63.5,RX1,,,,,"/>
 <approved hash="106,1,17.78,66.04,TX1,,,,,"/>
 <approved hash="106,1,55.88,58.42,VCC,,,,,"/>
+<approved hash="113,1,86.36,44.7029,AMIGA,,,,,"/>
+<approved hash="113,1,70.8829,65.8139,PWR,,,,,"/>
+<approved hash="113,1,94.3146,65.8139,PWR_BRIDGE,,,,,"/>
 </errors>
 </schematic>
 </drawing>
